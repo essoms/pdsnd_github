@@ -25,7 +25,7 @@ def generate_dataframe_in_chunks(df, nrows):
         row += nrows
 
 def print_my_name(name):
-    print(name)
+    print(f'Your name is: {name}')
 
 def has_guessed_my_wife_name():
     name = str(input("Do you want to see raw data? yes or no\n"))
