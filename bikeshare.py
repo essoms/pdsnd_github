@@ -29,7 +29,7 @@ def print_my_name(name):
 
 def has_guessed_my_wife_name():
     name = str(input("Do you want to see raw data? yes or no\n"))
-    return name == "Noela"
+    return name.capitalize == "Noela"
 
 def display_raw_data(dataframe, nrows):
     """
