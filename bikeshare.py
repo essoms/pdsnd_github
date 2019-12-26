@@ -12,6 +12,11 @@ days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sun
 filter_options = [1, 2, 3]
 raw_data_ans = ["yes", "no"]
 
+""" 
+General comments just for the sake of the Git commands project.
+I am adding comments
+"""
+
 def generate_dataframe_in_chunks(df, nrows):
     """Yield successive chunks from a dataframe of number of rows equal to nrows."""
     row = 0
@@ -19,6 +24,8 @@ def generate_dataframe_in_chunks(df, nrows):
         yield df[row:row + nrows]
         row += nrows
 
+def print_my_name(name):
+    print(name)
 
 def display_raw_data(dataframe, nrows):
     """
