@@ -27,6 +27,10 @@ def generate_dataframe_in_chunks(df, nrows):
 def print_my_name(name):
     print(name)
 
+def has_guessed_my_wife_name():
+    name = input("Do you want to see raw data? yes or no\n")
+    return name == "Noela"
+
 def display_raw_data(dataframe, nrows):
     """
     This functions asks the user if he or she wants to see the raw data.
